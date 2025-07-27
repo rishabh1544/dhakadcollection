@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhakad Collection</title>
+    <style>
+        body {font-family: Arial, sans-serif;margin:0;background:#111;color:#fff;}
+        header {background:#000;padding:20px;text-align:center;}
+        header h1 {color:gold;margin:0;}
+        nav {background:#222;padding:10px;text-align:center;}
+        nav a {color:#fff;margin:0 15px;text-decoration:none;font-weight:bold;}
+        .products {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:20px;}
+        .product {background:#1c1c1c;padding:15px;border-radius:10px;text-align:center;}
+        .product img {width:100%;border-radius:10px;}
+        .product h3 {color:gold;}
+        .product button {background:gold;color:#000;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;}
+        .product button:hover {background:#fff;color:#000;}
+        footer {background:#000;text-align:center;padding:20px;margin-top:30px;}
+        .upi-box {background:#1c1c1c;padding:20px;margin:20px;text-align:center;border-radius:10px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dhakad Collection</h1>
+        <p>Fashion For Everyone</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#payment">Payment</a>
+    </nav>
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=T-Shirt" alt="T-shirt">
+            <h3>Stylish T-Shirt</h3>
+            <p>Price: ₹499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Jeans" alt="Jeans">
+            <h3>Denim Jeans</h3>
+            <p>Price: ₹999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Shoes" alt="Shoes">
+            <h3>Casual Shoes</h3>
+            <p>Price: ₹1499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300.png?text=Jacket" alt="Jacket">
+            <h3>Winter Jacket</h3>
+            <p>Price: ₹1999</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="payment" class="upi-box">
+        <h2>UPI Payment</h2>
+        <p>Scan this QR to pay:</p>
+        <img src="https://via.placeholder.com/200x200.png?text=UPI+QR" alt="UPI QR">
+        <p><b>UPI ID:</b> 8815231816@ibl</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dhakad Collection | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
